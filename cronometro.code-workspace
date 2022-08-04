@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nintendo-controle"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "pwa-chrome",
+				"name": "http://localhost:3000/",
+				"request": "launch",
+				"url": "http://localhost:3000/"
+			}
+		]
+	}
+}
